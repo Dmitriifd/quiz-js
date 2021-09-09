@@ -96,3 +96,20 @@ label span {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black; 
 }
+
+.burger {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.burger span {
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: green;
+    border: 1px solid #000;
+}
